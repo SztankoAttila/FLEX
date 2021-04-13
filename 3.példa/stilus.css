@@ -1,0 +1,19 @@
+.call-outs-container {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+  }
+  .call-out {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis: 25%;
+  }
+  @media (min-width: 550px) {
+    .call-outs-container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .call-out:nth-child(1) {background-color: lightblue;}
+  .call-out:nth-child(2) {background-color: lightgreen}
+  .call-out:nth-child(3) {background-color: lightpink}
