@@ -8,7 +8,6 @@
     justify-content: space-around;
     flex-wrap: wrap-reverse;
   }
-  
   .fixed-size {
     width: 150px;
     height: 100px;
